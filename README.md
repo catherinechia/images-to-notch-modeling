@@ -6,7 +6,7 @@ Last update: 2023-06-28
 This public repository showcases the mathematical modeling work described in the above-mentioned thesis report.
 
 ### Overview
-Notch signaling activates oscillating expression of the Hes1 gene. Hes1 oscillation was previously modeled in Monk (2003), where a delay differential equation (DDE) model was deployed. This work extended Monk's DDE model by adding a dose-dependent inhibiting component to the model.
+Notch signaling activates oscillating expression of the Hes1 gene, and can be inhibited by a class of drug molecule named Gamma-secretase inhibitor (GSI). Hes1 oscillation was previously modeled in Monk (2003), where a delay differential equation (DDE) model was deployed. This work extended Monk's DDE model by adding a dose-dependent GSI component to the model.
 
 ### Description of the DDE model and biology behind it
 <p align="center">
@@ -17,7 +17,7 @@ Figure 1. Notch signaling in the Hes1 expressing cell and the simplified Notch m
 #### Biology
 1. Notch intracellular domain (NICD), after being cleaved by gamma-secretase, enters the cell nucleus and activates the expression of Hes1
 2. Hes1 exhibits an oscillatory expression due to its self-repressive behavior
-3. DAPT, a gamma-secretase inhibitor, inhibits the release of NICD, and thus affects the oscillating expression of Hes1
+3. DAPT, a gamma-secretase inhibitor (GSI), inhibits the release of NICD, and thus affects the oscillating expression of Hes1
 
 #### DDE Model
 * First component: mRNA expression level over time <br />
@@ -37,6 +37,10 @@ $$g = \frac{1}{1 + (p(t-\tau)/r)^n}$$
 Table 1. Parameter values and initial conditions used in model analyses
 <img src="fig/tab0_modelparameters.png" width="480">
 </p>
+
+### Simulation and Global Sensitivity Analysis
+(Coming up soon!)
+
 
 ## Reference
 1. Chia, C. M., Schulthess, P., & Sonnen, K. (2023). Quantitative descriptions of Notch signaling in small intestinal organoids in DAPT-inhibited and recovery states. Bioinformatics and Systems Biology joint degree program. Vrije Universiteit Amsterdam and University of Amsterdam. 
