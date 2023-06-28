@@ -9,8 +9,10 @@ This public repository showcases the mathematical modeling work described in the
 Notch signaling activates oscillating expression of the Hes1 gene. Hes1 oscillation was previously modeled in Monk (2003), where a delay differential equation (DDE) model was deployed. This work extended Monk's DDE model by adding a dose-dependent inhibiting component to the model.
 
 ### Description of the DDE model and biology behind it
-![NotchModel](fig/fig0_notchmodel.png?raw=true "Notch signaling in the Hes1 expressing cell and the simplified notch model")
-Figure 1. Notch signaling in the Hes1 expressing cell and the simplified Notch model used
+<p align="center">
+<img src="fig/fig0_notchmodel.png" width="640"><br />
+Figure 1. Notch signaling in the Hes1 expressing cell and the simplified Notch model used <br />
+</p>
 
 #### Biology
 1. Notch intracellular domain (NICD), after being cleaved by gamma-secretase, enters the cell nucleus and activates the expression of Hes1
@@ -31,7 +33,10 @@ where, <br />
 $$D = 1 - \frac{V_{max}\cdot [DAPT]}{K_m + [DAPT]}$$
 $$g = \frac{1}{1 + (p(t-\tau)/r)^n}$$
 
-![ModelParams](fig/tab0_modelparameters.png?raw=true "Parameter values and initial conditions used in model analyses")
+<p align="center">
+Table 1. Parameter values and initial conditions used in model analyses
+<img src="fig/tab0_modelparameters.png" width="480">
+</p>
 
 ## Reference
 1. Chia, C. M., Schulthess, P., & Sonnen, K. (2023). Quantitative descriptions of Notch signaling in small intestinal organoids in DAPT-inhibited and recovery states. Bioinformatics and Systems Biology joint degree program. Vrije Universiteit Amsterdam and University of Amsterdam. 
