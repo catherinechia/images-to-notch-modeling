@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Chia"
+  given-names: "Catherine"
+  orcid: "https://orcid.org/0000-0003-2387-5793"
+- family-names: "Schulthess"
+  given-names: "Pascal"
+- family-names: "Sonnen"
+  given-names: "Katharina"
+title: "modeling-notch-signaling"
+version: 1.0.0
+doi: 
+date-released: 2023-01-01
+url: "https://github.com/catherinechia/modeling-notch-signaling"
